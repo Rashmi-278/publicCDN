@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    background-color: #021f5d ;
+    }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#0B5BFB;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: #1476FB;
+      color: white;
+  
+  }
